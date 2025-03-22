@@ -1,4 +1,4 @@
-class Cl_persona{
+export default class Cl_Persona {
     constructor(cedula, edad){
     this.cedula=cedula
     this.edad=edad

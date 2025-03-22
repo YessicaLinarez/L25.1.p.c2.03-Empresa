@@ -1,4 +1,7 @@
-class Cl_Obrero extends Cl_Persona{
+
+import Cl_Persona from "./Cl_Persona.js";
+
+export default class Cl_Obrero extends Cl_Persona{
     constructor(cedula, edad, cntHijos){
     super(cedula, edad)
     this.cntHijos=cntHijos

@@ -1,4 +1,7 @@
-class Cl_Administrativo extends Cl_Persona{
+
+import Cl_Persona from "./Cl_Persona.js";
+
+export default class Cl_Administrativo extends Cl_Persona{
     constructor(cedula, edad, nivel){
     super(cedula, edad)
     this.nivel=nivel
